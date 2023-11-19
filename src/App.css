@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "vrinda";
+  src: url("./fonts/vrinda.ttf");
+}
+
+.musakReports {
+  font-family: vrinda;
+}
 .App {
   text-align: center;
 }
@@ -5,6 +13,11 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.table61 td {
+  min-width: 40px;
+  max-width: 75px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
